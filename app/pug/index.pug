@@ -47,26 +47,26 @@ html(lang='en')
                     .col-md-6
                         h4 Professional background
                         p Dr. Louis Smit is an internationally qualified and experience specialist in the field of pain. After completing his undergraduate studies locally, he practiced in Canada, before returning to further his expertise in anesthetics.
-                        
+
                         p He cemented his education by completing his Fellowship in Interventional Pain at the renowned World Institute of Pain in the Netherlands.
-                        
+
                         a.btn.btn-info.text-dark.mb-3(href="img/fipp.pdf", target="_blank")
-                            i.icon-book-open 
+                            i.icon-book-open
                                 span FIPP Certification
-                            
+
                     .col-md-6
                         h4 Personal journey
                         p After being diagnosed with Guillain Barre Syndrome, Dr. Smit is intimately familiar with the path to recovery. Learning to walk, write and live again provided him with a painful, yet irreplacable understanding of the subject.
-                        
+
                         p A combination of education and experience has culminated in a holistic approach to the patient as body, soul and spirit. The Helderberg Pain Clinic shares this view of surpasing a mere biomedical analysis in order to truly help their patients thrive and enjoy lasting vitality.
-                        
-                .row.pb-5           
+
+                .row.pb-5
                     .col-md-3.offset-md-9
                         img.cert-logo(src="img/wip.png", alt="World Institute of Pain Clinic Logo")
-        //Services                
+        //Services
         section.services.bg-light.text-white.text-center.text-dark
             .container
-                
+
                 .row
                     .col-lg-4
                         .features-icons-item.mx-auto.mb-5.mb-lg-0.mb-lg-3
@@ -87,15 +87,24 @@ html(lang='en')
                             h3 Rehabilitation
                             p.lead.mb-0 Ensuring long term relief and walking the road to recovery together
         // Treatment options
-        section#treatment.treatment.bg-light        
+        section#treatment.treatment.bg-light
             .container-fluid.p-0
                 .row.no-gutters
-                    .col-lg-6.text-white.showcase-img(style="background-image: url('img/RFThumbnail.png');")
-                    .col-lg-6.my-auto.showcase-text
+                    .col-lg-6.order-lg-2.text-white.showcase-img(style="background-image: url('img/RFThumbnail.png');")
+                    .col-lg-6.order-lg-1.my-auto.showcase-text
                         h2 Cutting edge treatments
                         p.lead.mb-0
                             | We utilise advanced RF technology to provide the latest in targeted pain relief techniques
                         a(href="treatments-radio-frequency.html")
+                            i.fa.fa-angle-right.mr-3
+                            span Read more
+                .row.no-gutters
+                    .col-lg-6.text-white.showcase-img(style="background-image: url('img/bg-masthead.jpg');")
+                    .col-lg-6.my-auto.showcase-text
+                        h2 Ozone therapy
+                        p.lead.mb-0
+                            | Ozone is not a medication but and adjuvant that helps the body to heal itself
+                        a(href="treatments-ozone-therapy.html")
                             i.fa.fa-angle-right.mr-3
                             span Read more
                 .row.no-gutters
@@ -127,7 +136,7 @@ html(lang='en')
                     .col-lg-6.order-lg-1.my-auto.showcase-text
                         h2 Underlying cause treatment
                         p.lead.mb-0
-                            | Looking past superficial symptoms to treat the deep seated issues presenting as pain 
+                            | Looking past superficial symptoms to treat the deep seated issues presenting as pain
                 .row.no-gutters
                     .col-lg-6.text-white.showcase-img(style="background-image: url('img/analgesia.jpeg');")
                     .col-lg-6.my-auto.showcase-text
@@ -154,7 +163,7 @@ html(lang='en')
                 .row.mt-5
                     .col-md-4.text-center.mb-3
                         i.icon.icon-phone.display-4.text-primary
-                        p.mt-3 021 851 1556 
+                        p.mt-3 021 851 1556
                     .col-md-4.text-center.mb-3
                         i.icon.icon-location-pin.display-4.text-primary
                         p.mt-3 Paardevlei Specialist Medical Centre
@@ -162,11 +171,11 @@ html(lang='en')
                         a.btn.btn-md.btn-info.mb-3(href="https://www.google.co.za/maps/place/Paardevlei+Specialist+Medical+Centre/@-34.0922013,18.814457,17z/data=!4m8!1m2!2m1!1spaardevlei+specialist+medical+centre!3m4!1s0x1dcdcaa84a596e77:0xc17593b40adab1e5!8m2!3d-34.0920798!4d18.8167353", target="_blank" ) Go To Map
                     .col-md-4.text-center
                         i.icon.icon-envelope.display-4.text-primary
-                        a.d-block.mt-3.text-dark(href="mailto:info@helderbergpainclinic.co.za") 
-                                                    | info@helderbergpainclinic.co.za         
+                        a.d-block.mt-3.text-dark(href="mailto:info@helderbergpainclinic.co.za")
+                                                    | info@helderbergpainclinic.co.za
         // Footer
         include footer.pug
-                    
+
         // Bootstrap core JavaScript
         script(src='vendor/jquery/jquery.min.js')
         script(src='vendor/jquery-easing/jquery.easing.min.js')
